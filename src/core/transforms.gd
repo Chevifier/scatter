@@ -1,5 +1,5 @@
 tool
-extends Reference
+extends Node
 
 
 var list := []

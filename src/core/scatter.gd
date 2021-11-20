@@ -107,6 +107,7 @@ func _do_update() -> void:
 		if not _transforms:
 			_transforms = Scatter.Transforms.new()
 			_transforms.set_path(self)
+			add_child(_transforms)
 
 		_transforms.clear()
 		if is_moving:
